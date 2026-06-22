@@ -1,6 +1,6 @@
 # Projets SADIR Rania
 
-Biostatisticienne — Master 2 B2 AI-EPI, Université Claude Bernard Lyon 1  
+Biostatisticienne - Master 2 B2 AI-EPI, Université Claude Bernard Lyon 1  
 Stage de recherche : IUCPQ, Université Laval, Québec (Équipe Arsenault)  
 Contact : s.rania1120@gmail.com
 
