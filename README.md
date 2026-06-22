@@ -13,22 +13,22 @@ Ce dossier regroupe l'ensemble des travaux académiques et de recherche réalis�
 | Projet | Contexte | Méthodes clés | Langage |
 |--------|----------|---------------|---------|
 | [PRED-CAD - Risque coronarien (All of Us)](#1-pred-cad--prédiction-du-risque-coronarien-all-of-us) | Stage M2, IUCPQ | DSM, MICE, OMOP, PRS | Python, R, SQL |
-| [MOBILS — Activité physique hospitalière](#2-mobils--activité-physique-et-mobilité-active-hôpital-lyon-sud) | Stage M1, CRNH | Longitudinal, PAEE, régression | R, SAS |
-| [Analyse de survie — Cancer](#3-analyse-de-survie--mortalité-par-cancer) | M2 UE Survie | KM, Cox, survPen, splines | R |
-| [Censure et inférence — Ebola](#4-censure-et-inférence--charge-virale-résiduelle-ebola) | M2 UE Inférence | MV censurée, simulation MC | R |
+| [MOBILS - Activité physique hospitalière](#2-mobils--activité-physique-et-mobilité-active-hôpital-lyon-sud) | Stage M1, CRNH | Longitudinal, PAEE, régression | R, SAS |
+| [Analyse de survie - Cancer](#3-analyse-de-survie--mortalité-par-cancer) | M2 UE Survie | KM, Cox, survPen, splines | R |
+| [Censure et inférence - Ebola](#4-censure-et-inférence--charge-virale-résiduelle-ebola) | M2 UE Inférence | MV censurée, simulation MC | R |
 
 ---
 
-## 1. PRED-CAD — Prédiction du risque coronarien (All of Us)
+## 1. PRED-CAD - Prédiction du risque coronarien (All of Us)
 
-**Contexte :** Stage M2, IUCPQ - Université Laval, Québec (Fév. - Juil. 2026). Superviseurs : LJ (doctorant), Pr Benoît Arsenault.  
+**Contexte :** Stage M2, IUCPQ - Université Laval, Québec (Fév. - Juil. 2026). Superviseurs : Louis-Jacques Ruel (doctorant), Pr Benoît Arsenault.  
 **Repo principal :** [github.com/s-rania1120/DSM-Pred-AoU](https://github.com/s-rania1120/DSM-Pred-AoU)
 
 ### Objectif
 
 Reproduire et étendre le modèle Deep Survival Machines (DSM, Chen et al. 2025, *Nature Medicine*) pour prédire le risque incident de maladie coronarienne (CAD) sur la cohorte All of Us (AoU), en intégrant variables cliniques et score polygénique de risque (PRS).
 
-### Cohorte analytique (v2)
+### Cohorte analytique
 
 - **N = 85 276** participants (30 640 hommes, 54 636 femmes)
 - **2 887 événements CAD** (3,4%) définis via 57 codes SNOMED
@@ -73,7 +73,7 @@ Intégration d'un PRS CAD (PRSmix, 2,8M variants, PLINK2) pour tester l'apport i
 
 ---
 
-## 2. MOBILS — Activité physique et mobilité active, Hôpital Lyon Sud
+## 2. MOBILS - Activité physique et mobilité active, Hôpital Lyon Sud
 
 **Contexte :** Stage M1, CRNH Rhône-Alpes - Hôpital Lyon Sud (Avr. - Juin 2025).  
 Encadrantes : Louise Seconda, Muriel Rabilloud.
@@ -124,7 +124,7 @@ PAEE_activité = [durée × MET × poids × (3,5 × 20,3 × 60 / 1000)]
 
 | Modèle | Variables ajoutées | Critère de comparaison |
 |--------|--------------------|------------------------|
-| M0 | Evolution TC (groupes 1/2/3) | — |
+| M0 | Evolution TC (groupes 1/2/3) | - |
 | M1 | + Variables de mobilité | AIC + ANOVA séquentielle |
 | M2 | + Variables sociodémographiques | AIC + ANOVA séquentielle |
 | M3 | + Contexte de vie et de travail | AIC + ANOVA séquentielle |
