@@ -142,9 +142,6 @@ Contrôle de la multicolinéarité : VIF (seuil < 5). Diagnostics sur modèle fi
 
 Attrition importante : 502 participants à T0 → 129 analysés (25,7% de rétention). Risque de biais de sélection entre répondants et non-répondants à T12 non quantifiable dans le cadre du stage.
 
-### Fichiers
-
-- `MemoireStage.docx` — Mémoire complet (40 pages, incluant plan d'analyse statistique, résultats et discussion)
 
 ### Technologies
 
