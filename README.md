@@ -153,7 +153,7 @@ Attrition importante : 502 participants à T0 → 129 analysés (25,7% de réten
 
 **Contexte :** Projet M2, UE M2_5 Analyse de survie - Université Lyon 1 (2025-2026).  
 Enseignants : Pr Delphine Maucort-Boulch, Dr Mathieu Fauvernier.  
-**Auteurs :** SADIR Rania, FAKHAR Salma
+**Auteur :** SADIR Rania 
 
 ### Objectif
 
@@ -190,21 +190,16 @@ Modèle retenu : **M3** (additif)
 | Spline cubique temps (nœud 1 an) + âge linéaire + sexe | Termes spline tous significatifs | Bon |
 | Spline temps + spline âge (nœud médian) | LRT χ² = 3,47, p = 0,33 vs modèle précédent | Equivalent, non retenu |
 
-### Fichiers
-
-- `codeSurvie_M2_SADIR_Rania_et_FAKHAR_Salma.R` — Code R (532 lignes)
-- `ProjetSurvie_M2_SADIR_Rania_et_FAKHAR_Salma.pdf` — Rapport complet
-
 ### Technologies
 
 `R` `survival` `survPen` `splines` `ggplot2`
 
 ---
 
-## 4. Censure et inférence — Charge virale résiduelle Ebola
+## 4. Censure et inférence - Charge virale résiduelle Ebola
 
-**Contexte :** Projet M2, UE Inférence fréquentiste et bayésienne — Université Lyon 1 (2025-2026).  
-**Auteurs :** SADIR Rania, FAKHAR Salma
+**Contexte :** Projet M2, UE Inférence fréquentiste et bayésienne - Université Lyon 1 (2025-2026).  
+**Auteur :** SADIR Rania 
 
 ### Objectif
 
@@ -221,7 +216,7 @@ ct_i = β₀ + β₁ × time_i + ε_i,   ε_i ~ N(0, σ²)
 Résultats : β₀ = 32,00 ; β₁ = 0,0187 ; σ = 2,17 ; R² = 0,598  
 Biais : surestimation β₀, sous-estimation β₁ et σ ; hétéroscédasticité sur les résidus.
 
-**Modèle 2 — Vraisemblance censurée**
+**Modèle 2 - Vraisemblance censurée**
 
 Pour les valeurs censurées (ct = 40) : contribution = P(ct* ≥ C) = 1 − Φ((C − μᵢ)/σ).  
 Maximisation numérique via `nlm()`.
@@ -240,11 +235,6 @@ Résultats : β₀ = 30,93 ; β₁ = 0,0268 (+43% vs modèle naïf) ; σ = 2,674
 | 35 | Censuré | 0,02700 | ~0% |
 
 Le biais du modèle naïf augmente avec la proportion de censure ; l'estimateur censuré reste non biaisé à tous les seuils, mais sa variance croît (perte d'information).
-
-### Fichiers
-
-- `CodeR_IFB_Final.R` — Code R (144 lignes)
-- `Projet_IFB.docx` — Rapport d'analyse
 
 ### Technologies
 
