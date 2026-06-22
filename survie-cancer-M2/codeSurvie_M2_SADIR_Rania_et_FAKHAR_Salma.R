@@ -1,5 +1,5 @@
 #__________________________________________________
-# Projet Survie - SADIR Rania et FAKHAR Salma
+# Projet Survie - SADIR Rania
 #__________________________________________________
 
 # Packages
