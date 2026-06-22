@@ -149,9 +149,9 @@ Attrition importante : 502 participants à T0 → 129 analysés (25,7% de réten
 
 ---
 
-## 3. Analyse de survie — Mortalité par cancer
+## 3. Analyse de survie - Mortalité par cancer
 
-**Contexte :** Projet M2, UE M2_5 Analyse de survie — Université Lyon 1 (2025-2026).  
+**Contexte :** Projet M2, UE M2_5 Analyse de survie - Université Lyon 1 (2025-2026).  
 Enseignants : Pr Delphine Maucort-Boulch, Dr Mathieu Fauvernier.  
 **Auteurs :** SADIR Rania, FAKHAR Salma
 
